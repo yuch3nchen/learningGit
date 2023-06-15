@@ -11,3 +11,11 @@ function timesNum(min, max) {
 }
 
 // timesNum(3, 15);
+
+//JS 功能二
+function BMI(height, weight) {
+  let ans = Math.round((weight / Math.pow(height / 100, 2)) * 10) / 10;
+  console.log(ans);
+}
+
+BMI(178, 70);
